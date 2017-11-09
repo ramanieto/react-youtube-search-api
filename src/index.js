@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 import _ from 'lodash'
 import YTSearch from 'youtube-api-search'
 import SearchBar from './components/search_bar'
 import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail'
 
-const API_KEY = 'AIzaSyD_OkZ5a6zpCzGHEmpLBvqm8OsYrvxAYaA';
+const API_KEY = // your own KEY here
 
 // Createa a new component. This component should produce some html.
 class App extends Component {
